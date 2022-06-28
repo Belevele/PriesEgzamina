@@ -23,14 +23,14 @@ public class BaseTest {
         driver.get("http://localhost:8080/login");
     }
 
-    @AfterMethod
-    public void closeBrowser() {
-        driver.manage().deleteAllCookies();
-        driver.close();
-    }
+//    @AfterMethod
+//    public void closeBrowser() {
+//        driver.manage().deleteAllCookies();
+//        driver.close();
+//    }
 
-    @AfterSuite
-    public void quitDriver() {
-        driver.quit();
-    }
+//    @AfterSuite
+//    public void quitDriver() {
+//        driver.quit();
+//    }
 }
